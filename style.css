@@ -75,9 +75,10 @@ body {
 /* ================== LOGO ================== */
 .logo {
     position: absolute; /* posizione in alto a sinistra */
-    top: 20px;
-    left: 20px;
-    z-index: 3;         /* sopra overlay e menu */
+     top: 50%;                /* verticale al centro */
+    left: 50%;               /* orizzontale al centro */
+    transform: translate(-50%, -50%); /* sposta il centro dell’immagine nel centro dell’hero */
+    z-index: 3;  
 }
 
 .logo img {
