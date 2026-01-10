@@ -81,7 +81,7 @@ body {
 }
 
 .logo img {
-    height: 60px;       /* altezza del logo */
+    height: 300vh;       /* altezza del logo */
     width: auto;        /* mantiene proporzioni */
 }
 
