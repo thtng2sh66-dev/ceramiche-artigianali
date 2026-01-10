@@ -14,14 +14,13 @@ body {
 
 /* ================== HERO ================== */
 .hero {
-    height: 80vh;
-    background-image: url("sfondo-ceramica.jpg");
-    background-size: cover;
-    background-position: center;
-    position: relative;
+    height: 80vh;               /* altezza dell'hero */
+    position: relative;          /* necessario per posizionare logo e overlay */
+    background-color: #f5f1eb;  /* colore di sfondo neutro (non una foto) */
     color: white;
 }
 
+/* overlay semitrasparente se vuoi */
 .hero::after {
     content: "";
     position: absolute;
@@ -29,9 +28,10 @@ body {
     background-color: rgba(60, 45, 35, 0.6);
 }
 
+/* MENU */
 .menu {
     position: relative;
-    z-index: 1;
+    z-index: 2; /* sopra l'overlay */
     padding: 20px;
     text-align: center;
 }
@@ -43,9 +43,10 @@ body {
     font-weight: bold;
 }
 
+/* TESTO HERO */
 .hero-text {
     position: relative;
-    z-index: 1;
+    z-index: 2;          /* sopra overlay */
     text-align: center;
     top: 50%;
     transform: translateY(-50%);
@@ -73,15 +74,15 @@ body {
 
 /* ================== LOGO ================== */
 .logo {
-    position: absolute; /* per metterlo sopra l’hero */
+    position: absolute; /* posizione in alto a sinistra */
     top: 20px;
     left: 20px;
-    z-index: 2;
+    z-index: 3;         /* sopra overlay e menu */
 }
 
 .logo img {
-    height: 60px;
-    width: auto;
+    height: 60px;       /* altezza del logo */
+    width: auto;        /* mantiene proporzioni */
 }
 
 /* ================== CONTENUTO ================== */
