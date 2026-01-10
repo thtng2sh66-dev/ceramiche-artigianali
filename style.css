@@ -75,10 +75,10 @@ body {
 /* ================== LOGO ================== */
 .logo {
      position: absolute;
-    top: 15%;               /* più in alto rispetto al centro (50%) */
-    left: 50%;              /* sempre centrato orizzontalmente */
-    transform: translateX(-50%); /* solo centratura orizzontale, non verticale */
-    z-index: 3;             /* sopra overlay e testo */
+    top: 5%;               /* sposta il logo molto più in alto */
+    left: 50%;             
+    transform: translateX(-50%);
+    z-index: 3;
 }
 
 .logo img {
