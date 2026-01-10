@@ -26,6 +26,14 @@ body {
     position: absolute;
     inset: 0;
     background-color: rgba(60, 45, 35, 0.6);
+    pointer-events: none;
+}
+
+.hero .logo,
+.hero .menu,
+.hero .hero-text {
+    position: relative;
+    z-index: 2; /* maggiore di ::after (che ha z-index di default 0) */
 }
 
 /* MENU */
