@@ -26,6 +26,7 @@ body {
     position: absolute;
     inset: 0;
     background-color: rgba(60, 45, 35, 0.6);
+    pointer-events: none;
 }
 
 /* MENU */
