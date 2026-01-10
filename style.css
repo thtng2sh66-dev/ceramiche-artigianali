@@ -74,15 +74,15 @@ body {
 
 /* ================== LOGO ================== */
 .logo {
-     position: absolute;
-    top: 5%;               /* sposta il logo molto più in alto */
-    left: 50%;             
+    position: absolute;
+    top: 5px;             /* 5px dal bordo superiore */
+    left: 50%;
     transform: translateX(-50%);
     z-index: 3;
 }
 
 .logo img {
-    height: 300px;       /* altezza del logo */
+    height: 250px;       /* altezza del logo */
     width: auto;        /* mantiene proporzioni */
 }
 
