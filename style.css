@@ -203,6 +203,19 @@ footer a:hover {
     margin-top: 5px;
 }
 
+/* ================== FOTO CHI SIAMO ================== */
+.chi-siamo-img {
+    max-width: 900px;   /* stessa larghezza del testo */
+    margin: 20px auto;  /* spazio sopra e sotto */
+    text-align: center;
+}
+
+.chi-siamo-img img {
+    width: 100%;        /* occupa tutta la larghezza disponibile */
+    height: auto;       /* mantiene proporzioni */
+    border-radius: 6px; /* angoli leggermente arrotondati, opzionale */
+}
+
 /* ================== RESPONSIVE ================== */
 @media screen and (max-width: 900px) {
     .philosophy {
