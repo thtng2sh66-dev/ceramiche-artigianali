@@ -19,7 +19,6 @@ body {
     background-image: url("sfondo.jpg"); /* la tua foto */
     background-size: cover;
     background-position: center;
-    color: white;
 }
 
 /* overlay semitrasparente se vuoi */
