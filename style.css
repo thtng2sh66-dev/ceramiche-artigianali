@@ -14,9 +14,11 @@ body {
 
 /* ================== HERO ================== */
 .hero {
-    height: 80vh;               /* altezza dell'hero */
-    position: relative;          /* necessario per posizionare logo e overlay */
-    background-color: #f5f1eb;  /* colore di sfondo neutro (non una foto) */
+   height: 80vh;
+    position: relative;
+    background-image: url("sfondo.jpg"); /* la tua foto */
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
@@ -25,7 +27,7 @@ body {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(60, 45, 35, 0.6);
+    background-color: rgba(245, 241, 235, 0.85);
     pointer-events: none;
 }
 
