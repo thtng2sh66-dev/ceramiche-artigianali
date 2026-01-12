@@ -33,7 +33,7 @@ body {
 /* MENU */
 .menu {
     position: relative;
-    z-index: 2; /* sopra l'overlay */
+    z-index: 10; /* aumentato per essere sopra tutto */
     padding: 20px;
     text-align: center;
 }
@@ -43,6 +43,8 @@ body {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
+    position: relative; /* assicura che sia sopra overlay */
+    z-index: 10;        /* sopra tutto */
 }
 
 /* TESTO HERO */
